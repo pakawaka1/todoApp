@@ -8,7 +8,7 @@ function onSubmit() {
     // const done = document.getElementById('#doneList');
 
     if (item === '') {
-        alert("you Must write something else ");
+        alert("What do you need to do?");
     } else {
         document.getElementById('todoList').appendChild(li);
         console.log(todoItem);
